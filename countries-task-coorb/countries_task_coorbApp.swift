@@ -11,7 +11,7 @@ import SwiftUI
 struct countries_task_coorbApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CountriesListAssembly.createModule()
         }
     }
 }
